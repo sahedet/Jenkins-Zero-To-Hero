@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'sahedet/sahedet:v1'
+      image 'sahedet/sahedet'
       args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // mount Docker socket to access the host's Docker daemon
     }
   }

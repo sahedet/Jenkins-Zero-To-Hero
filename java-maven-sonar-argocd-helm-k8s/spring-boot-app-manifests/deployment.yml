@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: sahedet/sahedet:replaceImageTag
+        image: sahedet/sahedet:1
         ports:
         - containerPort: 8080
